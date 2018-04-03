@@ -1,0 +1,2 @@
+# MHWDB
+Database for MHW
