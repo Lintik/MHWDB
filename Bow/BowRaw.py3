@@ -2,7 +2,7 @@ import re
 
 r = open('Bow.txt','r')
 s = r.read()
-w = open('BowRaw.txt', 'a')
+w = open('BowRaw.txt', 'w+')
 
 st = re.findall("<td class=\"text-center align-middle text-muted\">[\da-z/<>]{3,}",s)
 j = ""
@@ -11,6 +11,6 @@ for i in st:
 	j = ''.join(i)
 	j = j[1:]
 	print(j)
-	w.write('\n' + j)
+	w.write(j + '\n' )
 r.close()
 w.close()
