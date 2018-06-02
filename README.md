@@ -1,2 +1,4 @@
 # MHWDB
-Database for MHW
+Database for Monster Hunter World 
+
+Data is extracted from Kiranico
