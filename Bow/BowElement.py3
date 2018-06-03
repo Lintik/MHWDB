@@ -4,12 +4,10 @@ r = open('Bow.txt','r')
 s = r.read()
 w = open('BowElement.txt', 'w+')
 
-st = re.findall("<td class=\"text-center align-middle text-muted\">[\da-z/<>]{3,}",s)
+st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/[0-9\&\#\;\'a-zA-Z-></\" ]{3,}|Fire|Water|Thunder|Ice|Dragon|Poison|Paralysis|Sleep|Blast",s)
+eleset = set(['Fire','Water','Thunder','Ice','Dragon','Poison','Paralysis','Sleep','Blast'])
 j = ""
 for i in st:
-	i = re.findall(">[0-9]{2,}",i)
-	j = ''.join(i)
-	j = j[1:]
-	print(j)
+	print(i)
 r.close()
 w.close()
