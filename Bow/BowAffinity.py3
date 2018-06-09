@@ -12,12 +12,17 @@ for i in range(len(st)):
 	if st[i][-1] == '%':
 		temp = re.findall(r'-\d+|\d+', st[i])
 		st[i] = temp[0]
-		print(temp[0])
 		
 for i in zip(st[:-1], st[1:]):
-	comb.append(i)
+	if i[0].isdigit():
+		continue
+	else:
+		comb.append(i)
 	
-for i in range(len(comb))
+for i in range(len(comb)):
+	if comb[i][1].isdigit():
+		comb[i] = [comb[i][0], '0']
+		print(comb[i])
 		
 
 r.close()
