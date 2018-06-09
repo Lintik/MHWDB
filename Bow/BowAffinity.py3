@@ -22,7 +22,7 @@ for i in zip(st[:-1], st[1:]):
 for i in range(len(comb)):
 	if comb[i][1].isdigit():
 		comb[i] = [comb[i][0], '0']
-		print(comb[i])
+	print(comb[i])
 		
 
 r.close()
