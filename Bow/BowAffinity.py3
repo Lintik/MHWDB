@@ -13,17 +13,19 @@ for i in range(len(st)):
 		temp = re.findall(r'-\d+|\d+', st[i])
 		st[i] = temp[0]
 		
-for i in zip(st[:-1], st[1:]):
-	if i[0].isdigit():
-		continue
-	else:
-		comb.append(i)
 	
-for i in range(len(comb)):
-	if comb[i][1].isdigit():
-		comb[i] = [comb[i][0], '0']
-	print(comb[i])
 		
-
+for i in zip(st[:-1], st[1:]):
+	if re.match('[-]?\d+', i[0]):
+		print(i)
+	else:
+		if '<' in i[1]:
+			comb.append([i[0], '0'])
+		else:
+			comb.append(i)
+		
+for i in comb:
+	print(i[1])
+	w.write(i[1] + '\n')
 r.close()
 w.close()
