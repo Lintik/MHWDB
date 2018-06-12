@@ -7,7 +7,7 @@ Elite Commision Axe III
 Chrome Guardian I
 Chrome Guardian II
 Nergal Lacerator
-Devastation&#039;s Thorns
+Devastation's Thorns
 Rathsblade I
 Rathsblade II
 Axelion Blade
@@ -61,7 +61,7 @@ Kadachi Kaina II
 Kadachi Kaina III
 Garon Strongarm I
 Garon Strongarm II
-Hate&#039;s Undying Flame
+Hate's Undying Flame
 Odium
 Dragonbone Cutter I
 Dragonbone Cutter II
@@ -70,8 +70,9 @@ Magda Manus
 Avenging Magda Manus
 Blacksteel Charger I
 Blacksteel Charger II
-Daora&#039;s Casca
-Daora&#039;s Thwartoise
-Xeno Ra&#039;atz
-Tyrant&#039;s Charge Blade
-Oppressor&#039;s Charge Blade
+Daora's Casca
+Daora's Thwartoise
+Xeno Ra'atz
+Tyrant's Charge Blade
+Oppressor's Charge Blade
+Dante's Devil Sword

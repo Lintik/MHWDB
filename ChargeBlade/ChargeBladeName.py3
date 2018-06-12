@@ -2,15 +2,15 @@ import re
 
 r = open('ChargeBlade.txt','r')
 s = r.read()
-w = open('ChargeBladeName.txt', 'a')
+w = open('ChargeBladeName.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/[0-9\&\#\;\'a-zA-Z-></\" ]{3,}",s)
+st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+",s)
 j = ""
 for i in st:
 	i = re.findall(">[ a-zA-Z\&\#\;0-9]{3,}",i)
 	j = ''.join(i)
 	j = j[1:]
-	print(j)
-	w.write('\n' + j)
+	print(re.sub("\&\#039;", '\'',j))
+	w.write(re.sub("\&\#039;", '\'',j) + '\n' )
 r.close()
 w.close()
