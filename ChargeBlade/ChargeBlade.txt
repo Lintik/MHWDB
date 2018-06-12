@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/app.css?id=d9d99a8db8ab39bed41b">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <meta name="csrf-token" content="9uYdFo52QIJ2pXR1geS30Rn96aD4xXkuLFKZZGZu">
+    <meta name="csrf-token" content="mr1dm8Lz3eVxq9WCNNFDRlcRPMoWoGpcxWTDkWLg">
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -4515,6 +4515,39 @@
                         </td>
                         <td class="text-center align-middle">
                             <small>RARE7</small>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="align-middle">
+                            <span class="d-none d-sm-inline">
+                                                            </span>
+                            <a href="https://mhworld.kiranico.com/weapon/dantes-devil-sword">Dante&#039;s Devil Sword</a>
+                                                            <small>(creatable)</small>
+                                                    </td>
+                        <td class="text-center align-middle">720</td>
+                        <td class="text-center align-middle text-muted">200</td>
+                        <td class="text-center align-middle">
+                            <small>
+                                
+                                
+                                                                    <div>
+                                                                                                                            150
+                                            Thunder                                                                                                                        </div>
+                                                                                                    Impact Phial
+                                    
+                                                                                                                                                                                            </small>
+                        </td>
+                        <td class="text-center align-middle">
+                                                                                        
+                                                                                </td>
+                        <td class="text-center align-middle">
+                            <small><i class="zmdi zmdi-n-1-square"></i>
+                    <i class="zmdi zmdi-n-1-square"></i>
+                    <i class="zmdi zmdi-minus"></i>
+        </small>
+                        </td>
+                        <td class="text-center align-middle">
+                            <small>RARE8</small>
                         </td>
                     </tr>
 </table>        </div>
