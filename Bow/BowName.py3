@@ -4,7 +4,7 @@ r = open('Bow.txt','r')
 s = r.read()
 w = open('BowName.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/[0-9\&\#\;\'a-zA-Z-></\" ]{3,}",s)
+st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+",s)
 j = ""
 for i in st:
 	i = re.findall(">[ a-zA-Z\&\#\;0-9]{3,}",i)
