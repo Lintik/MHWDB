@@ -7,7 +7,7 @@ Buster Blade III
 Chrome Razor I
 Chrome Razor II
 Nergal Judicator
-Purgation&#039;s Atrocity
+Purgation's Atrocity
 Thunder Blade I
 Thunder Blade II
 Lightning Punisher I
@@ -25,9 +25,9 @@ Jagras Hacker II
 Jagras Hacker III
 Girros Blade I
 Girros Blade II
-Malady&#039;s Kiss I
-Malady&#039;s Kiss II
-Malady&#039;s Kiss III
+Malady's Kiss I
+Malady's Kiss II
+Malady's Kiss III
 Lava Blaze I
 Lava Blaze II
 Blooming Blade I
@@ -50,7 +50,7 @@ Bone Slasher III
 Giant Jawblade I
 Giant Jawblade II
 Hazak Kys
-Leviathan&#039;s Fury
+Leviathan's Fury
 Flammenzahn
 Flammenzahn
 Gnshing Flammenzahn
@@ -82,9 +82,11 @@ Magda Potestas II
 Blacksteel Chopper I
 Blacksteel Chopper II
 Icesteel Edge 
-Daora&#039;s Decimator
+Daora's Decimator
 Xeno Maliq
 Wyvern Jawblade
 Great Wyvern Jawblade
 Berseker Sword
 Anguish
+Wyvern Ignition &quot;Steel&quot;
+Wyvern Ignition &quot;Impact&quot;
