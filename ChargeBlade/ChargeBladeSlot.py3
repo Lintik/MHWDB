@@ -9,7 +9,6 @@ w3 = open('ChargeBladeSlot3.txt', 'w+')
 st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""
 
-comb = []
 for i in range(len(st)):
 	temp = re.findall('\d',st[i])
 	j = "0" if not temp else temp[0]
@@ -21,6 +20,7 @@ for i in range(len(st)):
 	if i % 4 == 3:
 		w3.write(j + '\n')
 	
+print(len(st)//4)
 r.close()
 w1.close()
 w2.close()
