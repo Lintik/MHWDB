@@ -4,12 +4,13 @@ r = open('Gunlance.txt','r')
 s = r.read()
 w = open('GunlanceShelling.txt', 'w+')
 
-st = re.findall("^ +Normal.+|^ +Wide.+|^ +Long.+",s, re.MULTILINE)
+st = re.findall("^ +Normal +Lv[0-9]$|^ +Wide +Lv[0-9]$|^ +Long +Lv[0-9]$",s, re.MULTILINE)
+j = []
 
-st = map(lambda x: s.strip(' '), st)
-
-for i in st:
-	print(st)
+j = list(map(lambda x: re.sub(' +',' ', x).strip(), st))
+for i in j:
+	print(i)
+print(len(st))
 	
 r.close()
 w.close()
