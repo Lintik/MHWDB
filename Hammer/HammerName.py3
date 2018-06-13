@@ -1,8 +1,8 @@
 import re
 
-r = open('GreatSword.txt','r')
+r = open('Hammer.txt','r')
 s = r.read()
-w = open('GreatSwordName.txt', 'w+')
+w = open('HammerName.txt', 'w+')
 
 st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+",s)
 j = ""
