@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/app.css?id=d9d99a8db8ab39bed41b">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <meta name="csrf-token" content="ghLm10uwtXve9RqXo6av8GeVWCGlMWPTgrIa5EUd">
+    <meta name="csrf-token" content="Zb0JGm1KYVNLZRZbMm7MNcoF9IQsj7R3YnxO4WVw">
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -5003,6 +5003,108 @@
                         <td class="text-center align-middle">
                             <small><i class="zmdi zmdi-minus"></i>
                     <i class="zmdi zmdi-minus"></i>
+                    <i class="zmdi zmdi-minus"></i>
+        </small>
+                        </td>
+                        <td class="text-center align-middle">
+                            <small>RARE7</small>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="align-middle">
+                            <span class="d-none d-sm-inline">
+                                                            </span>
+                            <a href="https://mhworld.kiranico.com/weapon/wyvern-ignition-steel">Wyvern Ignition &quot;Steel&quot;</a>
+                                                            <small>(creatable)</small>
+                                                    </td>
+                        <td class="text-center align-middle">720</td>
+                        <td class="text-center align-middle text-muted">150</td>
+                        <td class="text-center align-middle">
+                            <small>
+                                
+                                
+                                                                                                                                    <div>Affinity <span class="text-danger">-15%</span>
+</div>
+                                                                                                                                                            </small>
+                        </td>
+                        <td class="text-center align-middle">
+                                                            <div class="d-flex flex-row" style="height: 10px">
+    <div style="width:45px" class="sharpness-red border border-secondary border-right-0"></div>
+    <div style="width:17px" class="sharpness-orange border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:5px" class="sharpness-yellow border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:5px" class="sharpness-green border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:3px" class="sharpness-blue border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:0px" class="sharpness-white border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:25px" class="sharpness-black border border-secondary border-left-0"></div>
+</div>
+    <div class="d-flex flex-row" style="height: 6px">
+        <div style="width:45px" class="sharpness-red border border-secondary border-top-0 border-right-0"></div>
+        <div style="width:17px" class="sharpness-orange border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:5px" class="sharpness-yellow border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:5px" class="sharpness-green border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:15px" class="sharpness-blue border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:0px" class="sharpness-white border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:13px" class="sharpness-black border border-secondary border-top-0 border-left-0"></div>
+    </div>
+                            
+                                                                                </td>
+                        <td class="text-center align-middle">
+                            <small><i class="zmdi zmdi-minus"></i>
+                    <i class="zmdi zmdi-minus"></i>
+                    <i class="zmdi zmdi-minus"></i>
+        </small>
+                        </td>
+                        <td class="text-center align-middle">
+                            <small>RARE4</small>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="align-middle">
+                            <span class="d-none d-sm-inline">
+                                                                                                            &#9495;
+                                                                                                </span>
+                            <a href="https://mhworld.kiranico.com/weapon/wyvern-ignition-impact">Wyvern Ignition &quot;Impact&quot;</a>
+                                                    </td>
+                        <td class="text-center align-middle">1008</td>
+                        <td class="text-center align-middle text-muted">210</td>
+                        <td class="text-center align-middle">
+                            <small>
+                                
+                                
+                                                                    <div>
+                                                                                                                            <span class="text-muted">
+                                            (510
+                                                Fire)
+                                            </span>
+                                                                            </div>
+                                                                                                                                    <div>Affinity <span class="text-danger">-15%</span>
+</div>
+                                                                                                                                                            </small>
+                        </td>
+                        <td class="text-center align-middle">
+                                                            <div class="d-flex flex-row" style="height: 10px">
+    <div style="width:62px" class="sharpness-red border border-secondary border-right-0"></div>
+    <div style="width:5px" class="sharpness-orange border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:5px" class="sharpness-yellow border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:5px" class="sharpness-green border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:7px" class="sharpness-blue border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:3px" class="sharpness-white border border-secondary border-right-0 border-left-0"></div>
+    <div style="width:13px" class="sharpness-black border border-secondary border-left-0"></div>
+</div>
+    <div class="d-flex flex-row" style="height: 6px">
+        <div style="width:62px" class="sharpness-red border border-secondary border-top-0 border-right-0"></div>
+        <div style="width:5px" class="sharpness-orange border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:5px" class="sharpness-yellow border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:5px" class="sharpness-green border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:7px" class="sharpness-blue border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:15px" class="sharpness-white border border-secondary border-top-0 border-right-0 border-left-0"></div>
+        <div style="width:1px" class="sharpness-black border border-secondary border-top-0 border-left-0"></div>
+    </div>
+                            
+                                                                                </td>
+                        <td class="text-center align-middle">
+                            <small><i class="zmdi zmdi-n-1-square"></i>
+                    <i class="zmdi zmdi-n-1-square"></i>
                     <i class="zmdi zmdi-minus"></i>
         </small>
                         </td>
