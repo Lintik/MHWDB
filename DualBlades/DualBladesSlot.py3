@@ -1,10 +1,10 @@
 import re
 
-r = open('ChargeBlade.txt','r')
+r = open('DualBlades.txt','r')
 s = r.read()
-w1 = open('ChargeBladeSlot1.txt', 'w+')
-w2 = open('ChargeBladeSlot2.txt', 'w+')
-w3 = open('ChargeBladeSlot3.txt', 'w+')
+w1 = open('DualBladesSlot1.txt', 'w+')
+w2 = open('DualBladesSlot2.txt', 'w+')
+w3 = open('DualBladesSlot3.txt', 'w+')
 
 st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""
