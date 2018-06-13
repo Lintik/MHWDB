@@ -1,8 +1,8 @@
 import re
 
-r = open('GreatSword.txt','r')
+r = open('Gunlance.txt','r')
 s = r.read()
-w = open('GreatSwordRarity.txt', 'a')
+w = open('GunlanceRarity.txt', 'a')
 
 st = re.findall("RARE[\d]",s)
 for i in st:
