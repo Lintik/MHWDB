@@ -10,6 +10,7 @@ j = []
 j = list(map(lambda x: re.sub(' +',' ', x).strip(), st))
 for i in j:
 	print(i)
+	w.write(i + '\n')
 print(len(st))
 	
 r.close()
