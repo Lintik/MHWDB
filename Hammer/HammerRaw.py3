@@ -1,8 +1,8 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('GreatSword.txt','r')
 s = r.read()
-w = open('HammerRaw.txt', 'a')
+w = open('GreatSwordRaw.txt', 'a')
 
 st = re.findall("<td class=\"text-center align-middle text-muted\">[\da-z/<>]{3,}",s)
 j = ""
@@ -12,5 +12,7 @@ for i in st:
 	j = j[1:]
 	print(j)
 	w.write('\n' + j)
+
+print(len(st))
 r.close()
 w.close()
