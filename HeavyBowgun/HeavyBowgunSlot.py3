@@ -1,10 +1,10 @@
 import re
 
-r = open('GreatSword.txt','r')
+r = open('HeavyBowgun.txt','r')
 s = r.read()
-w1 = open('GreatSwordSlot1.txt', 'w+')
-w2 = open('GreatSwordSlot2.txt', 'w+')
-w3 = open('GreatSwordSlot3.txt', 'w+')
+w1 = open('HeavyBowgunSlot1.txt', 'w+')
+w2 = open('HeavyBowgunSlot2.txt', 'w+')
+w3 = open('HeavyBowgunSlot3.txt', 'w+')
 
 st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""
