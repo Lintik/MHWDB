@@ -35,7 +35,7 @@ for i in range(len(st)):
 	else:
 		w6.write(str(st[i]) + '\n')
 
-print(len(st)//6)
+print(len(st)//7)
 
 w1.close()
 w2.close()
