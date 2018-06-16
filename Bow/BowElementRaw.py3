@@ -11,6 +11,9 @@ comb = []
 for i in range(len(st)):
 	st[i] = st[i].strip(' (')
 	print(st[i])
+
+if not st[-1].isdigit():
+	st.append('0')
 	
 for i in zip(st[:-1],st[1:]):
 	if not i[0].isdigit():
