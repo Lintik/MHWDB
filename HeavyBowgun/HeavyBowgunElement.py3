@@ -14,9 +14,7 @@ if st[-1] not in eleset:
 	
 for i in zip(st[:-1], st[1:]):
 	if i[0] not in eleset:
-		comb.append(i)
-		
-
+		comb.append(i)		
 		
 print("There is {} bow in the set".format(len(comb)))		
 for i in range(len(comb)):
