@@ -6,12 +6,12 @@ w1 = open('BowSlot1.txt', 'w+')
 w2 = open('BowSlot2.txt', 'w+')
 w3 = open('BowSlot3.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""
 
 comb = []
 for i in range(len(st)):
-	temp = re.findall('\d',st[i])
+	temp = re.findall(r'\d',st[i])
 	j = "0" if not temp else temp[0]
 	print(st[i])
 	if i % 4 == 1:

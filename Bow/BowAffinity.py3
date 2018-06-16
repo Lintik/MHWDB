@@ -4,7 +4,7 @@ r = open('Bow.txt','r')
 s = r.read()
 w = open('BowAffinity.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
 j = ""
 
 comb = []
@@ -16,7 +16,7 @@ for i in range(len(st)):
 	
 		
 for i in zip(st[:-1], st[1:]):
-	if re.match('[-]?\d+', i[0]):
+	if re.match(r'[-]?\d+', i[0]):
 		print(i)
 	else:
 		if '<' in i[1]:

@@ -9,7 +9,7 @@ w4 = open('BowArrowPoi.txt', 'w+')
 w5 = open('BowArrowSle.txt', 'w+')
 w6 = open('BowArrowBla.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|coating-1\">Cls|text-muted\">Cls|coating-2\">Pow|text-muted\">Pow|coating-3\">Par|text-muted\">Par|coating-4\">Poi|text-muted\">Poi|coating-5\">Sle|text-muted\">Sle|coating-6\">Bla|text-muted\">Bla",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|coating-1\">Cls|text-muted\">Cls|coating-2\">Pow|text-muted\">Pow|coating-3\">Par|text-muted\">Par|coating-4\">Poi|text-muted\">Poi|coating-5\">Sle|text-muted\">Sle|coating-6\">Bla|text-muted\">Bla",s)
 j = ""
 
 comb = []

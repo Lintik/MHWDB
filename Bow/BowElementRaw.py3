@@ -4,7 +4,7 @@ r = open('Bow.txt','r')
 s = r.read()
 w = open('BowElementRaw.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|^ +\d+$|^ +\(\d+$",s, re.MULTILINE)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|^ +\d+$|^ +\(\d+$",s, re.MULTILINE)
 j = ""
 
 comb = []

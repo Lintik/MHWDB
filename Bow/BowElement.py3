@@ -4,7 +4,7 @@ r = open('Bow.txt','r')
 s = r.read()
 w = open('BowElement.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|Fire\)|Water\)|Thunder\)|Ice\)|Dragon\)|Poison\)|Paralysis\)|Sleep\)|Blast\)|Fire|Water|Thunder|Ice|Dragon|Poison|Paralysis|Sleep|Blast",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|Fire\)|Water\)|Thunder\)|Ice\)|Dragon\)|Poison\)|Paralysis\)|Sleep\)|Blast\)|Fire|Water|Thunder|Ice|Dragon|Poison|Paralysis|Sleep|Blast",s)
 eleset = set(['Fire)','Water)','Thunder)','Ice)','Dragon)','Poison)','Paralysis)','Sleep)','Blast)','Fire','Water','Thunder','Ice','Dragon','Poison','Paralysis','Sleep','Blast'])
 j = ""
 
