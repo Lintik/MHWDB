@@ -9,6 +9,9 @@ eleset = set(['Fire)','Water)','Thunder)','Ice)','Dragon)','Poison)','Paralysis)
 j = ""
 
 comb = []
+if st[-1] not in eleset:
+	st.append("Elementless")
+	
 for i in zip(st[:-1], st[1:]):
 	if i[0] not in eleset:
 		comb.append(i)
