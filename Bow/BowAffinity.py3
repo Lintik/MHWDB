@@ -13,7 +13,8 @@ for i in range(len(st)):
 		temp = re.findall(r'-\d+|\d+', st[i])
 		st[i] = temp[0]
 		
-	
+if not re.match(r'[-]?\d+', st[-1]):
+	st.append('0')
 		
 for i in zip(st[:-1], st[1:]):
 	if re.match(r'[-]?\d+', i[0]):
