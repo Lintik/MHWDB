@@ -12,5 +12,7 @@ for i in st:
 	j = j[1:]
 	print(re.sub(r"\&\#039;", '\'',j))
 	w.write(re.sub(r"\&\#039;", '\'',j) + '\n' )
+
+print(len(st))
 r.close()
 w.close()

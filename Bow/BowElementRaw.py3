@@ -24,5 +24,7 @@ for i in zip(st[:-1],st[1:]):
 
 for i in comb:
 	w.write(i[1] + '\n')
+
+print(len(comb))
 r.close()
 w.close()

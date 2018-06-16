@@ -20,6 +20,8 @@ for i in range(len(st)):
 		w2.write(j + '\n')
 	if i % 4 == 3:
 		w3.write(j + '\n')
+
+print(len(st)//4)
 	
 r.close()
 w1.close()

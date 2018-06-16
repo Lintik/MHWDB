@@ -27,5 +27,7 @@ for i in range(len(comb)):
 for i in range(len(comb)):
 	print(comb[i][1])
 	w.write(comb[i][1] + '\n')
+
+print(len(comb))
 r.close()
 w.close()

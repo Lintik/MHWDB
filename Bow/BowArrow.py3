@@ -12,8 +12,6 @@ w6 = open('BowArrowBla.txt', 'w+')
 st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|coating-1\">Cls|text-muted\">Cls|coating-2\">Pow|text-muted\">Pow|coating-3\">Par|text-muted\">Par|coating-4\">Poi|text-muted\">Poi|coating-5\">Sle|text-muted\">Sle|coating-6\">Bla|text-muted\">Bla",s)
 j = ""
 
-comb = []
-
 for i in range(len(st)):
 	print(st[i])
 	if "coating" in st[i]:
@@ -36,6 +34,8 @@ for i in range(len(st)):
 		w5.write(str(st[i]) + '\n')
 	else:
 		w6.write(str(st[i]) + '\n')
+
+print(len(st)//6)
 
 w1.close()
 w2.close()

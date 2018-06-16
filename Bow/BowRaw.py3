@@ -12,5 +12,7 @@ for i in st:
 	j = j[1:]
 	print(j)
 	w.write(j + '\n' )
+
+print(len(st))
 r.close()
 w.close()
