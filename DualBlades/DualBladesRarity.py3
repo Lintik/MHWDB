@@ -2,7 +2,7 @@ import re
 
 r = open('DualBlades.txt','r')
 s = r.read()
-w = open('DualBladesRarity.txt', 'a')
+w = open('DualBladesRarity.txt', 'w+')
 
 st = re.findall(r"RARE[\d]",s)
 for i in st:
