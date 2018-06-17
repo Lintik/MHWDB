@@ -1,10 +1,10 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('HuntingHorn.txt','r')
 s = r.read()
-w1 = open('HammerSlot1.txt', 'w+')
-w2 = open('HammerSlot2.txt', 'w+')
-w3 = open('HammerSlot3.txt', 'w+')
+w1 = open('HuntingHornSlot1.txt', 'w+')
+w2 = open('HuntingHornSlot2.txt', 'w+')
+w3 = open('HuntingHornSlot3.txt', 'w+')
 
 st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""

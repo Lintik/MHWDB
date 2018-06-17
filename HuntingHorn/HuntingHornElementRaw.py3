@@ -1,8 +1,8 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('HuntingHorn.txt','r')
 s = r.read()
-w = open('HammerElementRaw.txt', 'w+')
+w = open('HuntingHornElementRaw.txt', 'w+')
 
 st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|^ +\d+$|^ +\(\d+$",s, re.MULTILINE)
 j = ""

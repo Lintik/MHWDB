@@ -1,8 +1,8 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('HuntingHorn.txt','r')
 s = r.read()
-w = open('HammerRarity.txt', 'w+')
+w = open('HuntingHornRarity.txt', 'w+')
 
 st = re.findall(r"RARE[\d]",s)
 for i in st:
