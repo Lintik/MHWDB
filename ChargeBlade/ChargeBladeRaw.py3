@@ -11,6 +11,6 @@ for i in st:
 	j = ''.join(i)
 	j = j[1:]
 	print(j)
-	w.write('\n' + j)
+	w.write(j + '\n')
 r.close()
 w.close()
