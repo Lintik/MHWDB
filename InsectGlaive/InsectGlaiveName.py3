@@ -1,8 +1,8 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('InsectGlaive.txt','r')
 s = r.read()
-w = open('HammerName.txt', 'w+')
+w = open('InsectGlaiveName.txt', 'w+')
 
 st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+",s)
 j = ""

@@ -1,8 +1,8 @@
 import re
 
-r = open('Hammer.txt','r')
+r = open('InsectGlaive.txt','r')
 s = r.read()
-w = open('HammerRaw.txt', 'w+')
+w = open('InsectGlaiveRaw.txt', 'w+')
 
 st = re.findall(r"<td class=\"text-center align-middle text-muted\">[\da-z/<>]{3,}",s)
 j = ""
