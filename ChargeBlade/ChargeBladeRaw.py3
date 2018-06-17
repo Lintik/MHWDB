@@ -2,7 +2,7 @@ import re
 
 r = open('ChargeBlade.txt','r')
 s = r.read()
-w = open('ChargeBladeRaw.txt', 'a')
+w = open('ChargeBladeRaw.txt', 'w+')
 
 st = re.findall(r"<td class=\"text-center align-middle text-muted\">[\da-z/<>]{3,}",s)
 j = ""
