@@ -6,7 +6,7 @@ w1 = open('HeavyBowgunSlot1.txt', 'w+')
 w2 = open('HeavyBowgunSlot2.txt', 'w+')
 w3 = open('HeavyBowgunSlot3.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|zmdi zmdi-minus|zmdi zmdi-n-[0-9]-square",s, re.MULTILINE)
 j = ""
 
 for i in range(len(st)):

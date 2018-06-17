@@ -61,7 +61,7 @@ w.append(open('HeavyBowgunTra.txt', 'w+'))
 st = re.findall("Nrm.+$",s, re.MULTILINE)
 comb = []
 for i in st:
-    comb.append(re.findall("\d+", i))
+    comb.append(re.findall(r"\d+", i))
 for i in comb:
     print(i)
     for j in range(len(i)):
