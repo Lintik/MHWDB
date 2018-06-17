@@ -4,7 +4,7 @@ r = open('DualBlades.txt','r')
 s = r.read()
 w = open('DualBladesAffinity.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
 j = ""
 
 comb = []
@@ -13,11 +13,11 @@ for i in range(len(st)):
 		temp = re.findall(r'-\d+|\d+', st[i])
 		st[i] = temp[0]
 
-if not re.match('[-]?\d+', st[-1]):
+if not re.match(r'[-]?\d+', st[-1]):
 	st.append('0')
 	
 for i in zip(st[:-1], st[1:]):
-	if re.match('[-]?\d+', i[0]):
+	if re.match(r'[-]?\d+', i[0]):
 		print(i)
 	else:
 		if '<' in i[1]:
