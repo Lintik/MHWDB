@@ -11,6 +11,7 @@ for i in st:
 	j = ''.join(i)
 	j = j[1:]
 	j = re.sub(r"\&\#039;", '\'',j)
+	j = re.sub(r"\&quot;", '\"',j)
 	j = re.sub(r"\&amp;", '&',j)
 	print(j)
 	w.write(j + '\n' )
