@@ -10,8 +10,11 @@ for i in st:
 	i = re.findall(r">[ a-zA-Z\&\#\;0-9]{3,}",i)
 	j = ''.join(i)
 	j = j[1:]
-	print(re.sub(r"\&\#039;", '\'',j))
-	w.write(re.sub(r"\&\#039;", '\'',j) + '\n' )
+	j = re.sub(r"\&\#039;", '\'',j)
+	j = re.sub(r"\&quot;", '\"',j)
+	j = re.sub(r"\&amp;", '&',j)
+	print(j)
+	w.write(j + '\n' )
 
 print(len(st))
 r.close()
