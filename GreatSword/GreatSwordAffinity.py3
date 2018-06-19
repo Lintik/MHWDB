@@ -4,7 +4,7 @@ r = open('GreatSword.txt','r')
 s = r.read()
 w = open('GreatSwordAffinity.txt', 'w+')
 
-st = re.findall("<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|\+[0-9]{2}\%|\-[0-9]{2}\%",s)
 j = ""
 
 comb = []
