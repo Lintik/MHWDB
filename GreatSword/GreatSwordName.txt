@@ -88,5 +88,5 @@ Wyvern Jawblade
 Great Wyvern Jawblade
 Berseker Sword
 Anguish
-Wyvern Ignition &quot;Steel&quot;
-Wyvern Ignition &quot;Impact&quot;
+Wyvern Ignition Steel
+Wyvern Ignition Impact
