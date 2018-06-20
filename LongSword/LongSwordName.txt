@@ -21,13 +21,13 @@ Last Dance II
 Last Dance III
 Brazenridge I
 Brazenridge II
-Wyvern Blade &quot;Leaf&quot;
-Wyvern Blade &quot;Verde&quot;
-Wyvern Blade &quot;Holly&quot;
-Wyvern Blade &quot;Fall&quot;
-Wyvern Blade &quot;Blood&quot;
-Wyvern Blade &quot;Azure&quot;
-Wyvern Blade &quot;Indigo&quot;
+Wyvern Blade "Leaf"
+Wyvern Blade "Verde"
+Wyvern Blade "Holly"
+Wyvern Blade "Fall"
+Wyvern Blade "Blood"
+Wyvern Blade "Azure"
+Wyvern Blade "Indigo"
 Bone Shotel I
 Bone Shotel II
 Bone Shotel III
@@ -78,6 +78,6 @@ Imperial Shimmer
 Xeno Cypher 
 Supermacy Blade
 Divine Slasher
-Reaver &quot;Cruelty&quot;
-Reaver &quot;Calamity&quot;
+Reaver "Cruelty"
+Reaver "Calamity"
 Azure Star Blade
