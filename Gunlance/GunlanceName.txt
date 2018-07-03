@@ -12,7 +12,7 @@ Pulsar Gunlance I
 Pulsar Gunlance II
 Pulsar Gunlance III
 Kadachi Striker
-Kadachi Striker
+Kadachi Striker+
 Mythic Kadachi Striker
 Rath Gunlance I
 Rath Gunlance II
@@ -20,7 +20,7 @@ Red Rook
 Blue Rook
 Blue Chariot
 Princess Panoply
-Princess Panoply
+Princess Panoply+
 Rose Burst
 Royal Burst
 Madness Gunlance I
