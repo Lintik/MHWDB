@@ -64,13 +64,13 @@ Axe Semper Tyrannis
 Axe of Thanatos
 Axe of Demons
 Flammenbeil
-Flammenbeil
+Flammenbeil+
 Gnashing Flammenbeil
 Dragonbone Slicer I
 Dragonbone Slicer II
 Dragonbone Slicer III
 Peal
-Peal
+Peal+
 Kirin Thunderpeal
 Blacksteel Switch Axe I
 Blacksteel Switch Axe II
