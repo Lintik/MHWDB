@@ -1,8 +1,8 @@
 Elementless
 Elementless
 Elementless
-Poison
-Poison
+Elementless
+Elementless
 (Poison)
 (Poison)
 (Poison)
@@ -37,8 +37,8 @@ Elementless
 Elementless
 Elementless
 Elementless
-Dragon
-Dragon
+Elementless
+Elementless
 Dragon
 Dragon
 Water

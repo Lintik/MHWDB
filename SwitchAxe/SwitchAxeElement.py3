@@ -4,21 +4,24 @@ r = open('SwitchAxe.txt','r')
 s = r.read()
 w = open('SwitchAxeElement.txt', 'w+')
 
-st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|Fire\)|Water\)|Thunder\)|Ice\)|Dragon\)|Poison\)|Paralysis\)|Sleep\)|Blast\)|Fire|Water|Thunder|Ice|Dragon|Poison|Paralysis|Sleep|Blast",s)
+st = re.findall(r"<a href=\"https://mhworld.kiranico.com/weapon/.+|Fire.+$|Water.+$|Thunder.+$|Ice.+$|Dragon.+$|Poison.+$|Paralysis.+$|Sleep.+$|Blast.+$",s,re.MULTILINE)
 eleset = set(['Fire)','Water)','Thunder)','Ice)','Dragon)','Poison)','Paralysis)','Sleep)','Blast)','Fire','Water','Thunder','Ice','Dragon','Poison','Paralysis','Sleep','Blast'])
 j = ""
 
 comb = []
 if st[-1] not in eleset:
 	st.append("Elementless")
-	
+
+st = list(filter(lambda x: "Phial" not in x,st))
+st = list(map(lambda x: x.replace('</div>','').strip(), st))
+
 for i in zip(st[:-1], st[1:]):
 	if i[0] not in eleset:
 		comb.append(i)
 		
 
 		
-print("There is {} bow in the set".format(len(comb)))		
+print("There is {} weapon in the set".format(len(comb)))		
 for i in range(len(comb)):
 	if comb[i][1] not in eleset:
 		comb[i] = [comb[i][0],"Elementless"]
