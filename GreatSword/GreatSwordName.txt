@@ -52,7 +52,7 @@ Giant Jawblade II
 Hazak Kys
 Leviathan's Fury
 Flammenzahn
-Flammenzahn
+Flammenzahn+
 Gnshing Flammenzahn
 Aqua Slasher I
 Aqua Slasher II
