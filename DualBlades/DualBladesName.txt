@@ -26,7 +26,7 @@ Arcanaria I
 Arcanaria II
 Arcanaria III
 Sworn Rapiers
-Sworn Rapiers
+Sworn Rapiers+
 Holy Sabers
 Bone Hachets I
 Bone Hachets II
@@ -72,7 +72,7 @@ Dragonbone Twinblades I
 Dragonbone Twinblades II
 Enduring Schism
 Kirin Bolts
-Kirin Bolts
+Kirin Bolts+
 Monarch
 Magda Ungulae I
 Magda Ungulae II
