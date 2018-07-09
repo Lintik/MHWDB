@@ -22,6 +22,16 @@ for i in zip(st[:-1],st[1:]):
 		else:
 			comb.append([i[0], "0"])
 
+x = open('SwitchAxeElement.txt','r')
+y = x.read()
+
+z = y.split()
+print(z)
+print(len(z))
+for i in range(len(z)):
+	if z[i] == "Elementless":
+		comb[i] = [comb[i][0],'0']
+
 for i in comb:
 	w.write(i[1] + '\n')
 r.close()
