@@ -15,9 +15,9 @@ Firedance Rathmaul
 Kulu Blade I
 Kulu Blade II
 Kulu Blade III
-
-
-
+Ya-Ku Wrath I
+Ya-Ku Wrath II
+Ya-Ku Wrath III
 Luminous Blade I
 Luminous Blade II
 Destroyer Bo I
@@ -46,7 +46,7 @@ Aerial Rod II
 Hazak Entoma I
 Hazak Entoma II
 Flammenkaefer
-Flammenkaefer
+Flammenkaefer+
 Gnashing Flammenkaefer
 Aqua Rod I
 Aqua Rod II
