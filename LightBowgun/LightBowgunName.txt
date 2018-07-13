@@ -73,7 +73,7 @@ Dragonbone Bowgun III
 Onigashima
 Dai
 Mythical Horn
-Mythical Horn
+Mythical Horn+
 Mythical Three
 Blacksteel Crossbow I
 Blacksteel Crossbow II
