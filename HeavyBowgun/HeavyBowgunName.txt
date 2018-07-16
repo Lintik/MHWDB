@@ -20,7 +20,7 @@ Arma Destroyer I
 Arma Destroyer II
 Arma Destroyer III
 Shattercryst
-Shattercryst
+Shattercryst+
 Legia Shattercryst
 Jagras Assault I
 Jagras Assault II
@@ -68,7 +68,7 @@ Dragonbone Cannon I
 Dragonbone Cannon II
 Dragonbone Cannon III
 Quickcaster
-Quickcaster
+Quickcaster+
 Quickquiver
 Magda Gemitus I
 Magda Gemitus II
